@@ -1,0 +1,88 @@
+# Paper Configuration Record — UEL-SG-7002 Applied Business Project
+schema_version: "1.0"
+run_id: "uel-sg-7002-20261116-001"
+created_at: "2026-11-16T18:36:00Z"
+
+project:
+  title: "Strategic Workforce Flexibility and Organisational Performance: A Quantitative Secondary Data Analysis of Hybrid Working Arrangements, Employee Retention, and Labour Productivity Across UK Industry Sectors (2021–2024)"
+  module: "UEL-SG-7002 — Applied Business Project (Individual Report / Essay)"
+  institution: "University of East London (UEL) / UNICAF MBA"
+  assessment_point: "Summative Assessment Point 1"
+
+configuration:
+  paper_type: "Applied Business Report / IMRaD-adapted"
+  discipline: "Strategic Human Resource Management & Organisational Performance"
+  citation_format: "Harvard"
+  citation_verification: "strict"
+  body_language: "EN-GB"
+  register: "Formal postgraduate MBA academic/practitioner register (British English)"
+  domain_evidence_profile: "general_social_science"
+  data_scope: "Strictly quantitative online secondary data across UK industry sectors (2021–2024)"
+  zero_fabrication_policy: true
+
+word_count_policy:
+  target: 6000
+  acceptable_min: 5400
+  acceptable_max: 6600
+  hard_ceiling: 6600
+  included_in_count:
+    - "Main body text"
+    - "Direct quotations"
+    - "In-text citations"
+    - "Footnotes"
+    - "Tables, diagrams, and graphs (in-body text/captions)"
+  excluded_from_count:
+    - "Title Page / Cover"
+    - "Reference List (Harvard)"
+    - "Appendices (supplementary data tables, Python visualization code, Reflective Commentary)"
+
+section_allocations:
+  executive_summary:
+    target_band: "250-300"
+    midpoint: 275
+    note: "Written last, placed first"
+  chapter_1_introduction:
+    target_band: "800-1000"
+    midpoint: 900
+  chapter_2_literature_review:
+    target_band: "1200-1400"
+    midpoint: 1300
+  chapter_3_methodology:
+    target_band: "800-1000"
+    midpoint: 900
+  chapter_4_findings:
+    target_band: "700-900"
+    midpoint: 800
+  chapter_5_analysis:
+    target_band: "900-1100"
+    midpoint: 1000
+  chapter_6_conclusions_recommendations:
+    target_band: "600-800"
+    midpoint: 700
+  total_core_midpoint: 5875
+  reflective_commentary_appendix:
+    target_band: "400-600"
+    midpoint: 500
+    location: "Appendix (excluded from 6,000-word core ceiling)"
+
+formatting_requirements:
+  output_formats:
+    - "Markdown (paper.md)"
+    - "MS Word (.docx via Pandoc)"
+    - "PDF (.pdf via LaTeX/Pandoc)"
+  typography: "Times New Roman, 12pt, double-spaced"
+  pagination: "Numbered pages"
+  footer: "[Student Number] on every page"
+  figures: "Python (matplotlib/seaborn) scripts, 300 DPI, colorblind-safe palettes"
+
+uel_marking_rubric:
+  introduction_and_background_context: 10
+  literature_review_and_theoretical_foundations: 15
+  research_questions_aims_objectives: 15
+  methodology: 15
+  data_presentation_and_findings: 15
+  analysis_and_interpretation_of_findings: 15
+  conclusion: 5
+  referencing_harvard_style: 5
+  language_academic_writing_coherence: 5
+  total_marks: 100

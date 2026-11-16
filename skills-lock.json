@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "academic-paper": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "skillPath": "academic-paper/SKILL.md",
+      "computedHash": "eee454a5412b7fc2a01ac8ac800067a48c04dacf4a107eec705927d617e1fda7"
+    },
+    "academic-paper-reviewer": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "skillPath": "academic-paper-reviewer/SKILL.md",
+      "computedHash": "cbb06d6ec8b68df46ab044e3ba8a0bb1fe7fb9394b2382123e65b624ce9ccba5"
+    },
+    "academic-pipeline": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "skillPath": "academic-pipeline/SKILL.md",
+      "computedHash": "ce98e2ee779178ec219602652f116a4e69cf0d2616ba39796675e8ecbdea85b9"
+    },
+    "deep-research": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "skillPath": "deep-research/SKILL.md",
+      "computedHash": "f15eb975417b0cf1a6eda5a164a907ec1a6298d6d4262909e7bf0ec1053961b2"
+    },
+    "sr-screener": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "skillPath": "sr-screener/SKILL.md",
+      "computedHash": "9ea9ec214f470bb98e95039d01c8d70b423357b5d27c01a4329e69b07355048b"
+    }
+  }
+}
